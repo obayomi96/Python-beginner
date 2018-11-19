@@ -1,4 +1,4 @@
-# solving simulteneous equation using python
+# solving simultaneous equation using python
 print('For equation 1')
 a = int(input("Type the coefficient of x = \n"))
 b = int(input("Type the coefficient of y = \n"))
