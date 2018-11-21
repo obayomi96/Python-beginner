@@ -1,3 +1,16 @@
+#1. Display the purpose of the program
+#2. Display the instructions
+#3. Ask the user a question
+#4. What for the answer
+#5. If user is correct, display "correct" and add 1 to the score
+#6. Else display wrong
+#7. Go back to step 3 until all the questions have been answered
+#8. print the score of the user
+
+print("This is a CodeLagos Quiz program written in Python.")
+print("Each question carries one mark.")
+print("Choose your answer by typing from the option a, b, c, d or the answer itself that the letter is holding. \n")
+
 score = 0
 
 print("1. How many out of school centers does codelagos have? \n")
@@ -18,7 +31,7 @@ if(answer2 == "a" or answer2 == "2017"):
 else:
     print("Wrong")
     
-print("3. How many lagoscian doescodelagos intend to train by 2020? \n")
+print("3. How many Lagoscians does codelagos intend to train by 2020? \n")
 print(" a. 1,000,000\n b. 2,000,000\n c. 3,000,000 \n d. 4,000,000 \n Type your answer below")
 answer3 = input("= ")
 if(answer3 == "a" or answer3 == "1,000,000"):
